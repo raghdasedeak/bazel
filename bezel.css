@@ -1,0 +1,337 @@
+.logo{
+   width: 20%;
+    transform: scale(.4,.4);
+}
+body{
+    overflow-x: hidden;
+}
+
+
+
+nav a{
+    color:white !important;
+}
+ nav ul{
+    margin-right: 10px;
+}
+@media screen  and (max-width : 950px){
+.icons {
+    display:none;
+}
+
+}
+.content h1{
+    font-size: 100px;
+    font-weight: 500;
+}
+.content p{
+    font-size: 24px; 
+}
+ .bt-read   { 
+    padding: 10px 15px;
+    
+
+}
+.bt-contact {
+    padding:10px 12px;
+    background-color: transparent !important;
+    transition: 1s all;
+}
+.bt-hire{
+    padding:15px 25px ;
+}
+.bt-service{
+    padding:15px 30px;
+    transition: 1s all;
+}
+.layer{
+    background-color: rgba(0, 0, 0, 0.9)!important;
+    height: 100vh !important;
+    
+    }
+
+
+
+.bt-service:hover{
+    background-color: white;
+    color:black !important;
+}
+.bt-contact:hover{
+    background-color: white!important;
+    color:black !important;
+}
+carousel-control-next-icon{
+    position: absolute !important;
+    top:50% !important;
+    left:0px !important;
+    border-top:1px #fff solid !important;
+    font-size: small !important;
+}
+section{
+    position: relative;
+}
+
+.know-animate::after{
+    content: "";
+    animation-name:animatparagraphknow ;
+    animation-duration:5s ;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    color:#00c3da;
+    }
+
+@keyframes animatparagraphknow {
+0%{
+content:"s";
+}
+5%{content:"so";
+
+}
+10%{
+    content:"sof";
+}
+15%{
+    content:"soft"
+}
+20%{
+    content:"softw"
+}
+25%{
+    content:"softwe"
+}
+30%{content:"softwea"}
+35%{
+    content:"softwear"
+}
+
+    
+
+65%{
+    content:"softwea";
+    }
+    70%{content:"softwe";
+    
+    }
+    75%{
+        content:"softw";
+    }
+    80%{
+        content:"soft"
+    }
+    85%{
+        content:"sof"
+    }
+    90%{
+        content:"so"
+    }
+    95%{content:"s"}
+    100%{
+        content:"w"
+    }
+}
+
+    h6{
+        font-size:15px;
+        font-weight:bold;
+        
+    font-family: 'Poppins', sans-serif
+        
+    }
+    .more{
+        font-size:15px; 
+        font-weight:bold;
+        background-color: white;
+        padding:15px 20px;
+        transition: 1s all;
+    }
+    .more:hover{
+        background-color:black ;
+        color:#fff;
+    }
+    .sec3border{
+     border-color: #eee!important;
+     margin-top:100px ;
+    }
+    .header_creative h2{
+        font-size: 90px!important;
+        font-weight: 400;
+        transform: translateY(-25%);
+        color:rgba(235, 225, 225, 0.5)
+    }
+    .overlayer{
+        background-color: rgba(0, 195, 218, 0.9);
+        position:absolute;
+        top:0px;
+        left:0px;
+        right:0px;
+        bottom: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        opacity: 0;
+        transition:1s all;
+    }
+
+    .layerimage 
+    {
+        position: relative;
+    }
+    .layerimage:hover .overlayer{
+        opacity: 1;
+    }
+    
+.coloricon a{
+    color:#fff!important;
+}
+.services{
+padding-top:100px ;
+     background-color:#636363;
+
+}
+.pricing-header p{
+    font: size 30px !important; 
+    font-weight: bold !important;
+}
+.header .h4-up{
+    transform: translateY(-100%)!important;
+}
+
+ .header .p-letter{
+     transform: translate(-50%,50%)!important;
+     
+     font-size: 70px;
+     font-weight: 500;
+     color: rgba(212, 204, 204, 0.5)
+
+      
+ }
+       .line-price{
+     border-top: 1px solid rgb(233, 230, 230);
+margin: auto;
+ }
+ .pricing{
+   background-color: #F7F7F7!important;
+ }
+ .price_content h2 span{
+     font-size: 15px;
+     font-weight:400;
+     vertical-align: top;
+ }
+ .price_content h6{
+     font-size:13px!important ;
+     font-weight: 600!important;
+ }
+
+  .btn {
+  background-color: #00c3da!important; 
+    transition:1s all ;
+ }
+ .btn:hover{
+     background-color:#0dcaf0 !important;
+ }
+ .price_content-scale{
+
+transform:scale(1.1) ;
+
+}
+
+ .title h6{
+     font-size: 13px;
+     font-weight:400!important ;
+     padding-top:100px!important;
+ }
+ 
+ 
+ .item img{
+     width: 80px;
+     transform: translatey(-50%);
+ }
+ .carousel-inner 
+{overflow: unset;
+}
+    .feedback .carousel-indicators{
+    position:static ;
+    
+
+}
+
+     
+
+
+ .feedback .carousel-indicators [data-bs-target] {
+    
+ width:20px ;
+height:20px ;
+
+border-radius:50%; 
+
+
+}
+.feedback .carousel-indicators .active{
+    background-color:  #00c3da;
+}
+
+
+
+.cl-bt{
+    color:black!important;
+}
+.contact h2{
+    position:relative;
+    z-index:1 ;
+}
+.contact h2::after{
+    content: "G";
+    position:absolute;
+    top: -20px;
+    left:-10px;
+    font-size:50px;
+    font-weight: 900;
+    color:rgba(105, 102, 102, 0.5);
+    z-index:0 ;
+}
+
+
+
+.mapouter{
+    width: 100% !important;
+    height:100% !important;
+}
+
+
+ 
+     
+    
+  
+        
+        
+    
+
+    
+    
+    
+        
+    
+    
+        
+    
+    
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+    
+
